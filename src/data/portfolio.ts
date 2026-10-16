@@ -2,7 +2,7 @@ export type Category = 'serious' | 'vr' | 'mobile' | 'desktop' | 'tool'
 
 // TODO: replace with the final custom domain once registered (used for canonical URL,
 // sitemap, robots and JSON-LD structured data — one place to change everything).
-export const SITE_URL = 'https://ilyesahmed.dev'
+export const SITE_URL = 'https://ilyesahmed.vercel.app'
 
 export interface Project {
   slug: string
